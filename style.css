@@ -1,0 +1,309 @@
+body{
+    background-color: rgb(252, 244, 233);
+    margin: 0;
+    min-height: auto;
+    min-width: auto;
+    padding: auto;
+
+}
+h1{
+  font-style: italic;
+  color:rgb(34, 33, 33);
+  font-size: xx-large;
+  margin-right: 0;
+  margin-left: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+nav{
+    background-color:rgb(253, 234, 168);
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav,ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 0 20px;
+}
+.hr1{
+    margin-top: auto;
+    background-color: rgb(92, 53, 53);
+    height: 4px;
+}
+#butday{
+    background-image: none;
+    border: none;
+    background-color: rgb(253, 234, 168);
+}
+.but,h1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(253, 234, 168);
+}
+.but{
+    border: 0;
+    color:black;
+    background-color: rgb(253, 234, 168);
+    font-style: italic;
+    margin-right: 100px;
+}
+
+#bolo{
+    width: 365px;
+    height: 365px;
+}
+
+#log-center{
+    background-image: url(./pngwing.com.png);
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 0px;
+    
+}
+.seg-div{
+    padding: auto;
+    margin: 0;
+    background-color: rgb(252, 244, 233);
+    
+}
+#but1{
+    border-color: rgb(92, 53, 53);
+    background-color:rgb(249, 233, 178);
+    color: black;
+    margin-left: 180px;
+    margin-right: 0;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+}
+#but1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color:rgb(253, 234, 168);
+    
+}
+#but2{
+    border-color:rgb(92, 53, 53);
+    background-color:rgb(249, 233, 178);
+    color: black;
+    margin-left: 180px;
+    margin-right: 0;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+}
+#but2:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color:rgb(253, 234, 168);
+    
+}
+#but3{
+    border-color: rgb(92, 53, 53);
+    background-color:rgb(249, 233, 178);
+    color: black;
+    margin-left: 180px;
+    margin-right: 0;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+}
+#but3:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color:rgb(253, 234, 168);
+    
+}
+#but4{
+    border-color: rgb(92, 53, 53);
+    background-color:rgb(249, 233, 178);
+    color: black;
+    margin-left: 180px;
+    margin-right: 0;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+}
+#but4:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color:rgb(253, 234, 168);
+    
+}
+
+.imgmeio{
+    text-align: center;
+    padding: 0 20px;
+    margin: 0%;
+    margin-top: 100px;
+    
+}.sbnos{
+    margin-top: 60px;
+    margin: 0%;
+    padding: 0 20px;
+    background-color: rgb(252, 244, 233);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration:underline;
+    color: black;
+    font-style: italic;
+    margin-left: 30px;
+    font-size:xx-large;
+}
+p{
+    font-size: large;
+    text-decoration:none;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+#Fale{
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    margin-left: 450px;
+}
+.hr2{
+    height: 4px;
+    background-color: rgb(92, 53, 53);
+    margin-bottom: auto;
+    margin-top: 200px;
+    
+}
+#Fale{
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    margin-left: 450px;
+}
+#insta{
+    background-image: url(./img/png-transparent-computer-icons-instagram-griff-aviation-flamingo-logo-black-and-white-skin-thumbnail.png);
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    margin-left:50px;
+    background-size: cover;
+    cursor: pointer;
+}
+#face{
+    background-image: url(./img/png-transparent-computer-icons-facebook-logo-facebook-logo-fine-art-thumbnail.png);
+    border-radius:20px ;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    background-size: cover;
+    cursor: pointer;
+}
+#wpp{
+    background-image: url(./img/png-transparent-whatsapp-iphone-whatsapp-logo-monochrome-black-thumbnail.png);
+    border-radius: 20px;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#twitter{
+    background-image: url(./img/Black-icon-Twitter-logo-transparent-PNG.png);
+    border-radius: 20px;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.c1{
+    height: 210px;
+    width: 210px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+#buy{
+    margin-left: 15px;
+    border-color: rgb(92, 53, 53);
+    border-radius: 4px;
+    background-color: rgb(253, 234, 168);
+    height: 30px;
+    width: 100px;
+
+    font-style: italic;
+}
+#buy:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(253, 234, 168);
+}
+.deliciasdaday{
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    height: 400px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.botaocompra{
+    text-align: center;
+    
+}
+.botaocompra2{
+    text-align: center;
+
+}
+.botaocompra3{
+    text-align: center;
+    
+}
+.listaitens{
+    align-items: center;
+}
+footer{
+    background-color: rgb(253, 234, 168);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    
+}
+.listacopo1{
+    justify-items: center;
+    display: grid;
+}
+
+#day{
+    height: 320px ;
+    width: 320px ;
+    border-radius: 110px; 
+    margin-left: 38% ;
+    margin-top: 50px ;
+    
+}
+
+#t2{
+    text-align: left;
+    margin-left: 35px;
+}
+
